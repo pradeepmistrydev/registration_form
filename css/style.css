@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: cover;
+    height: 120vh;
+    background-repeat: no-repeat;
+    font-family: 'Cardo', serif;
+    border-radius: 10px;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-heading .title {
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    padding: 20px 0;
+    font-family: 'Cinzel', serif;
+}
+
+.form-row {
+    margin: 20px 0;
+}
+
+.input--style-6 {
+    height: 29px;
+    width: 400px;
+    background: #fac07700;
+    border-top: 1px solid whitesmoke;
+    border: none;
+    color: yellow;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.name {
+    color: white;
+    margin: 10px 0;
+}
+
+button.btn.btn--radius-2.btn--blue-2 {
+    padding: 10px 44px;
+    border-radius: 6px;
+    background: red;
+    color: white;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
